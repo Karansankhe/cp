@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main()
+{
+    int a,b,sum;
+    printf("Enter the value of a and b \n");
+    scanf("%d%d", &a,&b);
+    sum = a + b;
+    printf("Sum of a and b is %d\n ", sum);
+    if(sum > 20)
+    {
+        printf("Sum is greater than 20 \n ");
+    }
+   
+
+    return 0;
+}
+
+output: 
+Enter the value of a and b 
+100
+200
+Sum of a and b is 300
+Sum is greater than 20 
+ 
