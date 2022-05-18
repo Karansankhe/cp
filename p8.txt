@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+    int a,b;
+    float c;
+    a = 5;
+    b = 2;
+    c = a + b;
+    printf("Sum of %d and %d is %.2f\n", a,b,c);
+    c = a*b;
+    printf("product of %d and %d is %.2f\n", a,b,c);
+   
+    
+    return 0;
+}
+output:
+Sum of 5 and 2 is 7.00
+product of 5 and 2 is 10.00
